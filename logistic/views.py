@@ -7,7 +7,7 @@ from logistic.serializers import ProductSerializer, StockSerializer
 
 
 def index(request):
-    return HttpResponse("Hello cicd v2")
+    return HttpResponse("Hello cicd v3")
 
 
 class ProductViewSet(ModelViewSet):
